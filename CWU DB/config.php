@@ -7,7 +7,7 @@ if($isLocal == true) {
 	$bdd = new PDO('mysql:host=127.0.0.1;dbname=cwu_bdd', 'root', '');
   //echo "<script>document.write('<script src=\"http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1\"></' + 'script>')</script>";
 } else {
-	$bdd = new PDO('mysql:host=mysql.hostinger.fr;dbname=u780455691_cwu', 'u780455691_cwu', '7yXcLUZz9V');
+	$bdd = new PDO('mysql:host=mysql.hostinger.fr;dbname=databasename', 'username', 'password');
 }
 
 if(isset($_COOKIE['accept_cookie'])) {
