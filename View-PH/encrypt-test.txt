@@ -1,0 +1,23 @@
+<?php
+   error_reporting(E_ALL ^ E_NOTICE);
+   $string = "2504017";
+   $replace_from = array(
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6");
+   $replace_to = array(
+   "Al01",
+   "Br20",
+   "Ch03",
+   "De40",
+   "Ec05",
+   "Fo60");
+   $hashed = str_replace( $replace_from, $replace_to, $string );
+   echo "String: ". $string ."<br>";
+   echo "Encrypted: ". $hashed ."<br>";
+   echo "<br>";
+   print_r($hashed);
+?>

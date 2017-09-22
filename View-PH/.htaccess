@@ -1,0 +1,18 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+# RewriteBase /
+AddDefaultCharset utf-8
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^index$  index.php [L]
+RewriteRule ^connexion$  connexion.php [L]
+RewriteRule ^inscription$  inscription.php [L]
+RewriteRule ^deconnexion$  deconnexion.php [L]
+RewriteRule ^profil$  profil.php [L]
+RewriteRule ^editionprofil$  editionprofil.php [L]
+RewriteRule ^voir-random$  voir-random.php [L]
+RewriteRule ^voir-spec$  voir-spec.php [L]
+RewriteRule ^view$  view.php [L]
+RewriteRule ^viewall$  viewall.php [L]
+RewriteRule ^crawler$  crawler.php [L]
+
+RewriteCond %{HTTP_REFERER} !^http://([a-z]+\.)?viewph\.tld/.*$ [NC]
