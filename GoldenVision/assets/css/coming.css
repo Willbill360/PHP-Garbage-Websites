@@ -1,0 +1,12 @@
+.logo img {width: 20%;}
+.logo .wrap {margin: auto;}
+.s1 .wrap{margin:auto;text-align: center;}
+.s1 {margin:100px 0;}
+.s1 h3 {font-size: 40px;font-family: 'Anton';color:#757575;}
+.s2 p {font-size: 30px;font-family: 'Anton';color:#757575;}
+.s2 .wrap {margin:auto;text-align:center;}
+.s3 .wrap {margin:auto;text-align:center;}
+.s3 h3 {font-size: 35px;font-family: 'Anton';color:#b71c1c;}
+.s3 {margin: 100px 0;}
+.s3 a {font-family: 'Anton';color:#2196F3;}
+.s3 a:hover {color:#1565C0;}

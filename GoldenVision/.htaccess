@@ -1,0 +1,23 @@
+#For Normal Usage
+DirectoryIndex index.php
+
+#For Maintenance Usage
+#DirectoryIndex maintenance.php
+
+#For Coming Soon Usage
+#DirectoryIndex coming.php
+
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ /$1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ /$1.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.cgi -f       
+RewriteRule ^(.+?)/?$ /$1.cgi [L]

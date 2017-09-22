@@ -1,0 +1,53 @@
+body {font-family: 'Josefin Sans';
+}
+table#match tr:nth-child(even) {
+    background-color: #eee;
+}
+table#match tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#match td{
+	padding:10px;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans';
+}
+table#match th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+}
+table#match {margin:auto;text-align: center;}
+
+.matchtab .wrap{margin:auto;}
+.login{margin:60px 0;}
+.login input#text {padding:10px;border: 0; font-size: 17px;}
+.login input#submit {padding:10px; border:0; background:#b71c1c;font-size:17px;text-transform: uppercase;font-weight: bold;color:#fff;transition-duration: 1s;}
+.login input#submit:hover {background:#d32f2f;transition-duration: 1s;}
+.login .wrap {margin:auto;}
+.login form {text-align: center;}
+.login .wrap p {color:#fff;text-transform: uppercase;font-size: 23px;text-align: center;text-decoration-line: underline;}
+
+.adminform {margin-top:20px;}
+.adminform .wrap {margin:auto;}
+.adminform form{display: block;font-family:'Anton';}
+.adminform input {min-width: 180px;font-size: 20px;}
+.adminform select{min-width: 180px;font-size: 20px;}
+.adminform textarea {font-size:20px;}
+.adminform form p {text-align: left;font-size:20px;color:#fff;font-family: 'Josefin Sans';font-weight: bold;text-transform: uppercase;}
+.adminform input#submit {background-color: #03A9F4;padding:10px;border: 0;transition-duration: 1s;color:#fff;}
+.adminform input#submit:hover {background-color: #0277BD;border:0;transition-duration: 1s;}
+.add .wrap {margin:auto;padding:10px;text-align: center;}
+.add {margin-top: 20px;}
+.add a {padding:10px;background:#03A9F4;color:#fff;transition-duration: 1s;text-decoration-line: none;text-transform: uppercase;font-weight: bold;}
+.add a:hover {background:#0277BD;transition-duration: 1s;color:#fff;text-decoration-line:none;text-transform: uppercase;font-weight: bold;}
+h1.gname{text-align: center;color:#E0E0E0;}
+.viewplayers {display: inline-flex;}
+.viewplayers .allgamesurls {display: table-cell;text-align:center;}
+.viewplayers .allgamesurls .content {text-align: center;}
+.viewplayers .allgamesurls .wrap {height: 400px;overflow-x: auto;width:66.66%;margin-left: auto;}
+.viewplayers .theplayer {display: table-cell;margin:auto;text-align: center;}
+.viewplayers .theplayer {display: flex;margin:auto;}

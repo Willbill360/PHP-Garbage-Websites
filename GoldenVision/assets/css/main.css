@@ -1,0 +1,77 @@
+.lightbutton{position: absolute;right:0;display: table;margin:0 auto;height: 51px;margin-right: 30px;}
+.lightbutton .content{height:100%;margin:auto;display: table;}
+.lightbutton .wrap {height: 100%; margin-bottom:0;display:table-cell;padding:0;vertical-align: middle;margin-top: auto !important;}
+.lightbutton a.light {padding:10px; background:#BDBDBD;color:#fff;}
+.lightbutton a.dark {padding:10px; background: #212121;color:#fff;}
+.lightbutton a.light:hover {text-decoration-line: none;background:#E0E0E0;color:#212121;cursor: auto;}
+.lightbutton a.dark:hover {text-decoration-line: none;background: #616161;cursor:auto; }
+.logo img {width:10%;}
+.videoad {position:absolute;left:50%;}
+.leftpatente{display: table-cell !important;width:308px;vertical-align: middle;}
+.leftpatente .pub1,.leftad .pub2 {display:block;}
+.leftpatente .pub1 div {margin:auto !important;}
+.undervideoads {display:flex;}
+.undervideoads .content {margin:auto;}
+.commentspace {outline:black 2px solid;background:#b71c1c;overflow-y: auto;width:324.469px;}
+.commentform {width: 324.469px;}
+.commentform input#m {width:70%;}
+.commentform input#n {width: 30%;}
+.commentspace li {max-width:100%;list-style-type: none;color: #E0E0E0;background:#990000;border-bottom:1px solid black;font-family: 'Josefin Sans';word-wrap:break-word;}
+.rightchat input{border:none;padding:8px;color:#212121;font-family:'Anton';width: 70%;}
+.rightchat button {padding:8px;border:none;background:#E0E0E0;color:#212121;font-family:'Anton';font-size:13px;width: 30%;}
+
+ .player {min-width:620px !important;min-height: 350px !important;text-align:center;}
+}
+}
+}
+}
+.rightchat{display: table-cell !important;width:308px;vertical-align: middle;height: 100%;}
+.rightchat .content {margin:auto;}
+.logo .wrap {text-align: center;padding-top:30px;display:block !important;}
+.logo .image {width:100%;margin:auto;}
+.logo .dmca {margin-top: 15px;list-style-type: none;}
+.title {text-transform: uppercase;font-weight: bold;margin-bottom: 20px}
+.title h1{text-align: center;font-family: 'Josefin Sans';font-weight: bold;}
+.viewers .wrap {width: 600px;margin:auto;}
+.viewers h4 {text-align: right}
+.viewers  i {margin-left: 5px;color: #f0c30e;}
+.undermenu .player{display: table !important;}
+.player .video {display:table-cell;vertical-align:middle;min-width:600px;min-height:350px; auto;margin:0 auto;text-align: center;}
+#html1 video#videoplayer {width:600px;height: 400px;}
+.center .wrap h3{ color:#f0c30e !important;margin:0;font-family: 'Josefin Sans';}
+.player .center{height:400px;/*position:relative;left:50%;transform:translate(-50%,0);*/z-index:-1;display: none;margin:auto;}
+.center .wrap {text-align: center;}
+.center .content {margin:auto;height: 100%; display: flex;
+  justify-content: center;
+  align-items: center;}
+.menu ul.main {display: inline-flex;list-style-type: none;padding-left:0 ;margin-bottom: 0; }
+.menu li {margin-right: 10px;font-family: 'Josefin Sans';font-size: 20px;text-transform: uppercase;}
+.menu li:first-child {margin-top: auto;}
+.menu li:first-child a:hover {text-decoration-line: none;}
+.menu li:first-child a:focus {text-decoration-line: none}
+.menu a {color:#212121;}
+.menu button {color:#212121;font-size: 20px;}
+.menu button:hover {color:#616161;}
+.menu .wrap {text-align: center;margin:30px 0;padding:10px 0;background-color:#f0c30e;}
+.menu li:last-child {margin-right: 0;margin-top: auto;right:0;margin-right:40px;}
+.menu .btn-primary{ padding:0; background-color: transparent;}
+.menu .btn {background-color: transparent; padding: 0;color: #212121;border:0;}
+.menu .btn:hover {background-color: transparent;color:#616161;}
+.menu .btn:focus {background-color: transparent;color:#c62828;}
+.menu .btn-primary.active,.menu .btn-primary:active,.menu .open>.dropdown-toggle.btn-primary{background-color:transparent;color:#000;}
+.menu .btn-primary.active.focus,.menu .btn-primary.active:focus,.menu .btn-primary.active:hover,.menu .btn-primary:active.focus,.menu .btn-primary:active:focus,.menu .btn-primary:active:hover,.menu .open>.dropdown-toggle.btn-primary.focus,.menu .open>.dropdown-toggle.btn-primary:focus,.menu .open>.dropdown-toggle.btn-primary:hover{background-color: transparent;color:black;}
+.links2 {text-align: center;}
+.links2 a {color: #f0c30e;}
+.links2 a:hover{color: #FDD835;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
